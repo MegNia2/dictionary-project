@@ -1,11 +1,11 @@
+.Meanings {
+  margin-top: 20px;
+}
+
 .Meanings h4 {
   font-style: italic;
 }
 
 .Meanings .definition {
   font-weight: 400;
-}
-
-.Meanings .example {
-  font-weight: lighter;
 }
