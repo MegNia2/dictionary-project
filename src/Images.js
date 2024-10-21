@@ -5,7 +5,7 @@ export default function Images(props) {
   if (props.images) {
     return (
       <div className="Images">
-        <div className="row">
+        <section className="row">
           {props.images.map(function (images, index) {
             return (
               <div className="col-4" key={index}>
@@ -13,7 +13,7 @@ export default function Images(props) {
               </div>
             );
           })}
-        </div>
+        </section>
       </div>
     );
   } else {

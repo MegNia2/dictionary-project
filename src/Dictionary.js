@@ -61,9 +61,8 @@ export default function Dictionary() {
       </section>
 
       <Results results={results} />
-      <section>
-        <Images images={images} />
-      </section>
+
+      <Images images={images} />
     </div>
   );
 }
